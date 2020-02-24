@@ -1,0 +1,57 @@
+Nama : Muhammad Hilmy Raihan
+Nim : L200180029
+
+
+1. Jelaskan Mengapa dibutuhkan Data??
+Data dibutuhkan karena dengan menggunakan data kita dapat mengambil suatu keputusan yang baik, dengan melihat informasi yang ada.
+Data juga dibutuhkan dalam segala hal, seperti pencatatan, pengukuran, pengumpulan informasi dan lain sebagainya, yang dibutuhkan suatu hari mendatang.
+
+2.Jelaskan Manfaat Data Base dan Contohnya!!
+Manfaat Database Dalam Pemrograman Aplikasi Komputer yaitu :
+– Sebagai komponen utama dalam sistem informasi
+– Mengatasi kerangkapan data (redundancy data)
+– Menghindari terjadinya inkonsistensi data
+– Mengatasi kesulitan dalam mengakses data
+– Menyusun format yang standar dari sebuah data.
+– Penggunaan oleh banyak pemakai (multiple user).
+– Bisa dimanfaatkan sekaligus secara bersama oleh banyak pengguna (multiuser).
+– Melakukan perlindungan dan pengamanan data. .
+– Agar pemakai mampu menyusun suatu pandangan (view) abstraksi dari data.
+contoh:
+DataBase sekolah
+DataBase Perkantoran
+DataBase Rumah Sakit
+DataBase Mahasiswa
+dll
+3. untuk menentukan jenis database yang digunakan, apa yang menjadi acuan dalam pemilihan database tersebut???
+
+pendiskripsian kebutuhan informasi
+spesifikasi data
+pemrosesan yang diperlukan oleh data
+pertimbangan keamanan
+kecocokan dengan tipe aplikasi
+bahasa query
+biaya tak langsung terhadap pemrosesan
+4. Jelaskan istilah atau terminology yang digunakan dalam Database (database, table, field, record)
+
+Database : Sekumpulan data yang saling berhubungan untuk mencapai suatu tujuan.
+Table : Tempat untuk menyimpan data, tabel terdiri dari field dan record.
+Field : disebut juga dengan kolom, yaitu bagian tabel tempat menyimpan sebuah item data.
+Record : disebut juga dengan baris, yaitu satu bagian informasi yang disimpan dalam tabel, misal data seorang mahasiswa akan disimpan dalam satu record yang terdiri dari beberapa kolom/field.
+5. Bandingkan perbedaan pengolahan data secara manual dengan mengunakan system database!
+
+         Perbedaan pengolahan data secara manual dengan meggunakan system database yaitu, pada pengolahan secara manual data diolah secara tradisional menggunakan pensil, kertas dll. Sehingga memerlukan biaya yang besar untuk membeli kertas bulpen dll, untk menyimpan segala data atau informasi tersebut.
+dari segi keamananpun cenderung lebih rentan.
+         Sedangkan pengolahan data pada sistem database lebih praktis, dapat meminimalkan duplikasi data, integritas data tinggi, keamanan lebih terjamin, dan sharing data lebih mudah.
+6. Mengapa dibutuhkan DBMS?
+Pada berbagai macam aplikasi, basis data (database) merupakan bagian yang penting, karena dengan basis data suatu aplikasi dapat menyimpan, memproses dan menampilkan informasi-informasi yang dapat dimanfaatkan oleh user. Basis data adalah sekumpulan dari data yang yang disusun secara logic dan diatur oleh sekumpulan-sekumpulan aturan-aturan, prosedur-prosedur dan fungsionalitas-fungsionalitas yang membantu menjamin konsistensi dan interpretasi data tersebut. Oleh sebab itu, dibutuhkan suatu tool yang dapat digunakan untuk mengelola, menjamin konsistensi dan interpretasi data.
+Berdasarkan kebutuhan di atas, maka muncullah sebuah tool yang dapat digunakan untuk memenuhi kebutuhan tersebut yang bernama Database Management System (DBMS). Database Management system adalah sekumpulan dari software program ompleks yang berguna untuk mengontrol dan mengatur storage dan mengambil sekumpulan data, menyusun data secara logic dan menyediakan fungsi-fungsi bagi user untuk menjamin bahwa data tersebut disusun secara logic dan menjamin konsistensi data. Itulah mengapa perlu membutuhkan DBMS.
+7. Pada percobaan di atas ada beberapa field yang tipe data dan ukurannya berbeda. Jelaskan!!
+Pada tabel Mhs, ada beberapa field yaitu: NIM, NAMA, TEMPAT_LAHIR, TANGGAL_LAHIR, ALAMAT, TELEPHON. Masing-masing field ersebut telah diatur sesuai tipe data yang dibutuhkan yaitu:
+
+field Nim: tipe data “text(10)”, berarti pada record dapat diisikan data berupa teks huruf, angka, dan simbol-simbol lain dan ukurannya diatur sepanjang 10, rtinya digit maksimum yang dapat dimasukan kedalam record adalah 10 digit, maka apabila lebih dari 10 digit , digit yang ke-11 tidak akan terbaca.
+field NAMA : tipe data “text(30)”, sama dengan tipe data NIM hanya saja panjang ukurannya berbeda yaitu 30, artinya kita dapat memasukan digit maksimum kedalam record adalah 3o digit.
+field ALAMAT: tipe data “text(50)”, mempunyai panjang maksimal sampai 50 digit
+Field TEMPAT_LAHIR: tipe data “text(20”, mempunyai panjang maksimal sampai 20 digit
+field TANGGAL_LAHIR: tipe data “date/time”, yang berarti pada record dapat diisikan data berupa angka dan simbol.
+field TELEPHON: tipe data “Number(integer)”, yang berarti pada field ini hanya dapat diisikan record berupa angka /bilangan bulat saja.
